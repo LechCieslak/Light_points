@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta', sans-serif;
+}
+
+body {
+    background-color: #ffcb7b;
+}
+
+ul {
+    list-style-type: none;
+    border: solid 2px #456f95;
+    border-radius: 15px;
+    padding: 4px;
+}
+
+li:first-child {
+    font-weight: bold;
+    background-color: #c9da31;
+}
+
+li {
+    padding: 2px;
+    padding-left: 8px;
+    margin: 1px;
+    border-radius: 10px;
+    background-color: #FFDFAE;
+}
+
+.row {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+}
